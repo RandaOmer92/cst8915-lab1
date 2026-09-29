@@ -50,6 +50,8 @@ The Store Front talks to both backend services using the browser's `fetch()` fun
 ### RabbitMQ Queue
 ![RabbitMQ Dashboard](screenshots/rabbitmq-dashboard.png)
 
+---
+
 ## Challenges and Learnings 
 
 - **SSH setup in VS Code:** My first connection failed with the error "SSH user name cannot include the character \". I found a duplicate host entry in my SSH config file. After I cleaned up the file so it had only one entry with `HostName`, `User`, and `IdentityFile`, the connection worked.
