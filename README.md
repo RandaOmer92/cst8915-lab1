@@ -34,15 +34,16 @@ The Store Front is the website that customers use. It is built with Vue.js, a Ja
 
 The Store Front talks to both backend services using the browser's `fetch()` function. When the page loads, it sends a GET request to the Product Service (`/products` on port 3030) to get the products. When the customer clicks Place Order, it sends a POST request to the Order Service (`/orders` on port 3000) with the product, quantity, and total price, then shows a success or error message. Because these requests come from the customer's browser and not from the VM, the URLs in the code had to be changed from `localhost` to the VM's public IP, and ports 3000 and 3030 had to be opened in the Azure Network Security Group.
 
-
-
 ---
 
-## Challenges and Learnings (Optional)
+## Challenges and Learnings 
 
-
+- **SSH setup in VS Code:** My first connection failed with the error "SSH user name cannot include the character \". I found a duplicate host entry in my SSH config file. After I cleaned up the file so it had only one entry with `HostName`, `User`, and `IdentityFile`, the connection worked.
+- **What I learned:** How the services run separately but work together, and how RabbitMQ holds orders in a queue between services.
 
 ---
 
 ## Acknowledgments
+
+- Lab instructions and source code provided by the course instructor.
 
