@@ -1,15 +1,18 @@
 # CST8915 Lab 1: Algonquin Pet Store on Azure VM
 
 **Student Name**: Randa Omer
+
 **Student ID**: 041079985
+
 **Course**: CST8915 Full-stack Cloud-native Development
+
 **Semester**: Fall 2026
 
 ---
 
 ## Demo Video
 
-🎥 [Watch Demo Video]()
+🎥 [Watch Demo Video](https://youtu.be/Uhpy3TSc5Q0)
 
 ---
 
@@ -46,4 +49,5 @@ The Store Front talks to both backend services using the browser's `fetch()` fun
 ## Acknowledgments
 
 - Lab instructions and source code provided by the course instructor.
+-  Used ChatGPT (AI assistant) for help with setup troubleshooting.
 
